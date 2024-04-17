@@ -5,7 +5,7 @@ info:
   version: 1.1.0
   termsOfService: 'https://redocly.com/subscription-agreement/'
   contact:
-    email: team@redocly.com
+    email: team0@redocly.com
     url: "https://redocly.com/docs/cli/"
   license:
     name: MIT
