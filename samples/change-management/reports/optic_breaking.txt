@@ -1,9 +1,79 @@
-Redocly Museum API redocly_openapi_3.0.json
+x Redocly Museum API ./redocly_openapi_3.0.json
 Operations: 1 operation changed, 1 removed
+x  Checks: 0/14 passed
 
-POST /tickets: removed
+x POST /tickets: removed
 
-POST /special-events:
+  x [prevent operation removal] cannot remove an operation. This is a breaking change.
+  at redocly_openapi_3.0.json:280:8414
+
+  - response 200:
+    x [prevent response status code removal] must not remove response status code 200. This is a breaking change.
+    at redocly_openapi_3.0.json:306:9301
+
+    - body application/json:
+      - property /schema/properties/message:
+
+        x [prevent removing response property] cannot remove response property 'message'. This is a breaking change.
+        at redocly_openapi_3.0.json:422:12961
+
+      - property /schema/properties/eventName:
+
+        x [prevent removing response property] cannot remove response property 'eventName'. This is a breaking change.
+        at redocly_openapi_3.0.json:516:16302
+
+      - property /schema/properties/ticketId:
+
+docker run --rm -t -v $(pwd):/apis tufin/oasdiff breaking /apis/redocly_openapi_3.0.json /apis/redocly_endpoint_deleted.json
+        x [prevent removing response property] cannot remove response property 'ticketId'. This is a breaking change.
+        at redocly_openapi_3.0.json:427:13162
+
+      - property /schema/properties/ticketType:
+
+        x [prevent removing response property] cannot remove response property 'ticketType'. This is a breaking change.
+        at redocly_openapi_3.0.json:369:11190
+
+      - property /schema/properties/ticketDate:
+
+        x [prevent removing response property] cannot remove response property 'ticketDate'. This is a breaking change.
+        at redocly_openapi_3.0.json:378:11500
+
+      - property /schema/properties/confirmationCode:
+
+        x [prevent removing response property] cannot remove response property 'confirmationCode'. This is a breaking change.
+        at redocly_openapi_3.0.json:433:13402
+
+  - response 400:
+    x [prevent response status code removal] must not remove response status code 400. This is a breaking change.
+    at redocly_openapi_3.0.json:993:32279
+
+    - body application/problem+json:
+      - property /schema/properties/type:
+
+        x [prevent removing response property] cannot remove response property 'type'. This is a breaking change.
+        at redocly_openapi_3.0.json:632:20029
+
+      - property /schema/properties/title:
+
+        x [prevent removing response property] cannot remove response property 'title'. This is a breaking change.
+        at redocly_openapi_3.0.json:636:20132
+
+  - response 404:
+    x [prevent response status code removal] must not remove response status code 404. This is a breaking change.
+    at redocly_openapi_3.0.json:1003:32541
+
+    - body application/problem+json:
+      - property /schema/properties/type:
+
+        x [prevent removing response property] cannot remove response property 'type'. This is a breaking change.
+        at redocly_openapi_3.0.json:632:20029
+
+      - property /schema/properties/title:
+
+        x [prevent removing response property] cannot remove response property 'title'. This is a breaking change.
+        at redocly_openapi_3.0.json:636:20132
+
+✔ POST /special-events:
   - request:
     - body application/json:
       - property /schema/properties/info: changed
