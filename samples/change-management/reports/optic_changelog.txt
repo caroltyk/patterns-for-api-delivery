@@ -1,0 +1,8 @@
+Redocly Museum API redocly_openapi_3.0.json
+Operations: 1 operation changed
+
+POST /special-events:
+  - request:
+    - body application/json:
+      - property : changed
+Rerun this command with the --web flag to view the detailed changes in your browser

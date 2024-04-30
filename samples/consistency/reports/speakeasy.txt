@@ -1,0 +1,72 @@
+Linting OpenAPI document...
+
+INFO    Using ruleset speakeasy-recommended
+WARN    validation warning	{"error":"validation warn: [line 544] missing schema type for '#/components/schemas/CreateSpecialEventRequest', but found properties treating as object","operation":"createSpecialEvent","type":"paths"}
+WARN    validation warning	{"error":"validation warn: [line 598] missing schema type for '#/components/schemas/SpecialEventResponse', but found properties treating as object","operation":"createSpecialEvent","type":"paths"}
+WARN    validation warning	{"error":"validation warn: [line 571] missing schema type for '#/components/schemas/UpdateSpecialEventRequest', but found properties treating as object","operation":"updateSpecialEvent","type":"paths"}
+Lint report available to view at: https://app.speakeasyapi.dev/org/carol/carol/linting-report/127aa7ac6f40be5bc475582b2fd14900
+INFO    validation hint: [line 50] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 54] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 82] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 86] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 102] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 143] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 147] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 185] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 216] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 220] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 236] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 270] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 291] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 295] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 298] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 310] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 314] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 317] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 351] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 351] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 357] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 360] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 394] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 438] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 470] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 475] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 478] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 482] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 544] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 571] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 591] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 594] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 598] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 629] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 997] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1007] missing-examples - Missing example for responses. Consider adding an example
+INFO    validation hint: [line 1017] missing-examples - Missing example for component. Consider adding an example
+INFO    validation hint: [line 1017] missing-examples - Missing example for responses. Consider adding an example
+WARN    validation warn: [line 544] general - missing schema type for '#/components/schemas/CreateSpecialEventRequest', but found properties treating as object
+WARN    validation warn: [line 571] general - missing schema type for '#/components/schemas/UpdateSpecialEventRequest', but found properties treating as object
+WARN    validation warn: [line 598] general - missing schema type for '#/components/schemas/SpecialEventResponse', but found properties treating as object
+WARN    validation warn: [line 544] missing schema type for '#/components/schemas/CreateSpecialEventRequest', but found properties treating as object
+WARN    validation warn: [line 598] missing schema type for '#/components/schemas/SpecialEventResponse', but found properties treating as object
+WARN    validation warn: [line 571] missing schema type for '#/components/schemas/UpdateSpecialEventRequest', but found properties treating as object
+
+OpenAPI document linting complete. 0 errors, 6 warnings, 52 hints
+
+OpenAPI document valid ✓
+
+You can upload your schema to Speakeasy using the following command:
+speakeasy api register-schema --schema=redocly_openapi_3.0.json

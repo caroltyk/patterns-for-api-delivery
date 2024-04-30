@@ -1,0 +1,10 @@
+2 changes: 2 error, 0 warning, 0 info
+error	[new-required-request-property] at /apis/redocly_endpoint_deleted.json
+	in API POST /special-events
+		added the new required request property 'info'
+
+error	[api-path-removed-without-deprecation] at /apis/redocly_openapi_3.0.json
+	in API POST /tickets
+		api path removed without deprecation
+
+

@@ -1,0 +1,12 @@
+/samples/consistency/redocly_openapi_3.0.json
+   8:17   warning  contact-properties          Contact object must have "name", "url" and "email".   info.contact
+  19:16   warning  oas3-server-trailing-slash  Server URL must not have trailing slash.              servers[0].url
+  402:30    error  no-$ref-siblings            $ref must not be placed next to any other properties  components.schemas.BuyMuseumTicketsRequest.properties.eventId.description
+  406:30    error  no-$ref-siblings            $ref must not be placed next to any other properties  components.schemas.BuyMuseumTicketsRequest.properties.ticketDate.description
+  455:30    error  no-$ref-siblings            $ref must not be placed next to any other properties  components.schemas.BuyMuseumTicketsResponse.properties.ticketDate.description
+  487:30    error  no-$ref-siblings            $ref must not be placed next to any other properties  components.schemas.MuseumDailyHours.properties.date.description
+  489:26    error  no-$ref-siblings            $ref must not be placed next to any other properties  components.schemas.MuseumDailyHours.properties.date.example
+  501:26    error  oas3-valid-schema-example   "example" property type must be string                components.schemas.MuseumDailyHours.properties.timeClose.example
+ 1025:12  warning  openapi-tags-alphabetical   OpenAPI object must have alphabetical "tags".         tags
+
+✖ 9 problems (6 errors, 3 warnings, 0 infos, 0 hints)

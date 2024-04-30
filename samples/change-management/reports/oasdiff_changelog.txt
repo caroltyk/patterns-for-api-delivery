@@ -1,0 +1,4 @@
+1 changes: 0 error, 0 warning, 1 info
+info	[new-optional-request-property] at /apis/redocly_new_property.json
+	in API POST /special-events
+		added the new optional request property 'info'
